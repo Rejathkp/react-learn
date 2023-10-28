@@ -1,0 +1,37 @@
+@font-face {
+    font-family: FG;
+    src: url(C:\Users\rejat\Downloads\Founders_Grotesk\FoundersGrotesk-Bold.otf);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(207 22 22);
+    font-family: FG;
+}
+
+/* Center the form vertically and horizontally */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% of the viewport height */
+  }
+  
+  /* Add some padding and set a max-width for the form */
+  form {
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    background-color: rgb(240, 255, 255);
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    /* Adjust styles for screens with a max-width of 768px */
+    form {
+      padding: 10px;
+    }
+  }
+  

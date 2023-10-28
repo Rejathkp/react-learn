@@ -1,0 +1,19 @@
+.card{
+    width: 100% ;
+}
+.card-container{
+    gap: 40px;
+    display: flex;
+}
+.card-title{
+    text-align: center;
+}
+.card-img-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
